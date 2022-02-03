@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "use_pytest": "y",
   "use_black": "y",
-  "use_pypi_deployment_with_gitlab": "n",
+  "use_pypi_deployment_with_travis": "n",
   "command_line_interface": "y",
   "config_setup": "y",
   "create_author_file": "y",
