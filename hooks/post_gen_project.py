@@ -23,5 +23,9 @@ if __name__ == '__main__':
         remove_file(cli_file)
         remove_directory(lib_dir)
 
+    if '{{ cookiecutter.use_pypi_deployment_with_travis }}' == 'y':
+        remove_file('.travis')
+
+
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
         remove_file('LICENSE')

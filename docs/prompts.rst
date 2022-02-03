@@ -40,8 +40,8 @@ The following package configuration options set up different features for your p
 use_pytest
     Whether to use `pytest <https://docs.pytest.org/en/latest/>`_
 
-use_pypi_deployment_with_travis
-    Whether to use PyPI deployment with `Travis <https://travis-ci.org/>`_.
+use_pypi_deployment_with_gitlab
+    Whether to use PyPI deployment with `Gitlab`_.
 
 add_pyup_badge
     Whether to include a `pyup <https://github.com/pyupio/pyup>`_ badge
